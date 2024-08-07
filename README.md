@@ -5,7 +5,7 @@ Before you begin, ensure you have Python 3.10 or higher installed on your system
 ### Setup and Run Locally
 1. Clone the Repository:
 ```
-https://github.com/PiSpace/algo_trading
+https://github.com/PiSpace/ai_agent
 ```
 2. Install Dependencies:
 ```
