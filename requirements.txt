@@ -1,0 +1,13 @@
+streamlit
+yfinance
+pandas
+plotly
+pandas-ta
+openai
+python-dotenv
+phi
+streamlit-lightweight-charts
+scikit-learn
+textblob
+requests
+numpy

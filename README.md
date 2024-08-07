@@ -24,7 +24,7 @@ streamlit run app.py
 5. Useful links
    - To get openai API: (https://platform.openai.com/api-keys)
    - To deploy your app: https://streamlit.io/
-   - ML algo: (https://scikit-learn.org/stable/modules/tree.html)
+   - ML algo: (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor)
    - OpenAI doc: (https://platform.openai.com/docs/guides/vision)
    - NLP, Sentiment Analysis: (https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis)
 
