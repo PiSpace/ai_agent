@@ -19,7 +19,7 @@ Secure your OpenAI API key for use in the application.
 4. Launch the Application:
 Start the chatbot using Streamlit.
 ```
-streamlit run app.py
+streamlit run run.py
 ```
 5. Useful links
    - To get openai API: (https://platform.openai.com/api-keys)
