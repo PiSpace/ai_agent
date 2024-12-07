@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-import pandas_ta as ta
+# import pandas_ta as ta
 from app.news_sentiment import SentimentAnalyzer
 
 class StockAnalysisDashboard:
@@ -84,7 +84,8 @@ class StockAnalysisDashboard:
 
     def _fetch_stock_data(self, symbol, period):
         try:
-            data = yf.download(symbol, period=period, interval="1d")
+            stock = yf.Ticker(symbol)
+            data = stock.history( period=period, interval="1d")
             if data.empty:
                 st.error(f"No data found for {symbol}")
                 return None
