@@ -8,3 +8,5 @@ scikit-learn
 pandas-ta
 pillow
 openai
+python-dotenv
+textblob
