@@ -25,6 +25,7 @@ streamlit run run.py
    - To get openai API: (https://platform.openai.com/api-keys)
    - To deploy your app: https://streamlit.io/
    - ML algo: (https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor)
+   - ML algo: (https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
    - OpenAI doc: (https://platform.openai.com/docs/guides/vision)
    - NLP, Sentiment Analysis: (https://textblob.readthedocs.io/en/dev/quickstart.html#sentiment-analysis)
 
@@ -33,3 +34,5 @@ streamlit run run.py
 - News Sentiment Analysis: Analyzes the sentiment of the latest news articles to gauge market sentiment and its impact on stock prices.
 - Interactive Stock Comparison: Enables side-by-side comparison of multiple stocks.
 - AI Financial Assistant: Provides dynamic, real-time responses to financial queries and market-related questions, with image analysis capabilities.
+- Portfolio simulator: Enables users to choose various portfolio allocations and provides them with the expected return, annual volatility, and Sharpe ratio for a specified period, along with additional features such as risk analysis and optimization suggestions.
+- Backtesting: Permits users to backtest diverse strategies, producing performance metrics to assess their effectiveness.
